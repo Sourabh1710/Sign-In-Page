@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Heebo:wght@800&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+
+    width: 25%;
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+
+.container h1 {
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    display: inline;
+    font-size: 40px;
+    border-bottom: 5px solid #ea03fc;
+    margin-bottom: 40px;
+    padding: 13px 0px;
+}
+
+.box {
+    width: 100%;
+    margin: 35px 0;
+    padding: 3px 3px;
+    border-bottom: 2px solid purple;
+}
+
+
+
+
+.box input {
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    background: none;
+    width: 75%;
+    margin: 2px 0px;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.box i {
+    width: 25px;
+    text-align: center;
+
+}
+
+.btn {
+    color: white;
+    cursor: pointer;
+    outline: none;
+
+    margin: 0px 0px;
+    padding: 10px 21px;
+    border-radius: 10px;
+    border: 2px solid purple;
+    font-size: 18px;
+    background: none;
+    font-weight: bold;
+
+}
+
+.btn:hover {
+    color: #ea03fc;
+
+    background: white;
+    opacity: 0.5;
+
+
+}
